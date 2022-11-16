@@ -1,0 +1,206 @@
+* {
+    margin: 0.75px;
+    padding: 0;
+}
+
+.navBar {
+    display: flex;
+}
+
+.navList {
+    width: 50%;
+    align-items: flex-start;
+    display: flex;
+}
+
+.navList li {
+    list-style: none;
+    padding: 5px 30px;
+}
+
+.navBar li a {
+    color: rgb(39, 40, 44);
+    font-size: 18px;
+    font-family: fantasy;
+    letter-spacing: 1px;
+    text-decoration: none;
+    align-items: center;
+}
+
+.navBar a:hover {
+    color: rgb(223, 13, 111);
+    border: 1px;
+    border-radius: 5px;
+    background-color: rgb(45, 53, 52);
+    font-style: bold;
+}
+
+.rightNav {
+    width: 50%;
+    text-align: right;
+    align-items: center;
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    width: 45%;
+    display: flex;
+    border: 1px solid skyblue;
+    border-radius: 80px;
+}
+
+#Search {
+    padding: 10px;
+    border: 2px solid rgb(218, 214, 214);
+    border-radius: 10px;
+    align-items: center;
+}
+
+#Search:hover {
+    border: 3px;
+}
+
+.btn {
+    color: rgb(3, 3, 3);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    border: 2px solid rgb(127, 127, 163);
+    border-radius: 10px;
+    align-items: center;
+    font-size: 14px;
+    float: right 2px;
+}
+
+.btn:hover {
+    color: rgb(223, 13, 111);
+    background-color: rgb(45, 53, 52);
+}
+
+body {
+    background-image: url("/img/NewsBack.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.header {
+    background-color: rgb(3, 3, 3);
+}
+
+.header h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    color: red;
+    text-align: center;
+    margin-top: 12.75px;
+}
+
+.containers {
+    display: flex;
+    justify-content: center;
+    margin-top: 12.75px;
+}
+
+.container1 {
+    border: 3px solid rgb(255, 255, 255);
+    max-width: 452px;
+}
+
+.container2 {
+    border: 3px solid rgb(255, 255, 255);
+    max-width: 452px;
+}
+
+.container3 {
+    border: 3px solid rgb(255, 255, 255);
+    max-width: 452px;
+}
+
+.breakingNews {
+    border: 3px solid rgb(255, 255, 255);
+    justify-content: center;
+    display: flex;
+    margin-top: 5px;
+}
+
+.header2 {
+    background-color: rgb(0, 0, 0);
+    margin-top: 12.75px;
+}
+
+.header2 h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+
+.news1 {
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.news1 h2 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 28px;
+    color: rgb(4, 4, 243);
+}
+
+.news1 p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: justify;
+    color: rgb(66, 3, 35);
+    margin-right: 50px;
+}
+
+.firstImage {
+    width: 402px;
+    max-width: 500px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.newsSection1 {
+    margin-top: 12.75px;
+    border: 3px solid whitesmoke;
+    display: flex;
+}
+
+.news2 {
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.news2 h3 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 28px;
+    color: rgb(4, 4, 243);
+}
+
+.news2 p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: justify;
+    color: rgb(66, 3, 35);
+    margin-right: 50px;
+}
+
+.secondImage {
+    width: 402px;
+    max-width: 500px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.newsSection2 {
+    margin-top: 12.75px;
+    border: 3px solid whitesmoke;
+    display: flex;
+}

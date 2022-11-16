@@ -1,0 +1,140 @@
+* {
+    margin-top: 0.75px;
+    padding: 0
+}
+
+.navBar {
+    display: flex;
+}
+
+.navList {
+    width: 50%;
+    align-items: center;
+    display: flex;
+}
+
+.navList li {
+    list-style: none;
+    padding: 5px 30px;
+}
+
+.navBar li a {
+    color: rgb(39, 40, 44);
+    font-size: 18px;
+    font-family: fantasy;
+    letter-spacing: 1px;
+    text-decoration: none;
+    align-items: center;
+}
+
+.navBar a:hover {
+    color: rgb(223, 13, 111);
+    border: 1px;
+    border-radius: 5px;
+    background-color: rgb(45, 53, 52);
+    font-style: bold;
+}
+
+.rightNav {
+    width: 50%;
+    text-align: right;
+    align-items: center;
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    width: 45%;
+    display: flex;
+    border: 1px solid skyblue;
+    border-radius: 80px;
+}
+
+#Search {
+    padding: 10px;
+    border: 2px solid rgb(218, 214, 214);
+    border-radius: 10px;
+    align-items: flex-end;
+}
+
+#Search:hover {
+    border: 3px;
+}
+
+.btn {
+    color: rgb(3, 3, 3);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    border: 2px solid rgb(127, 127, 163);
+    border-radius: 10px;
+    align-items: center;
+    font-size: 14px;
+    float: right 2px;
+}
+
+.btn:hover {
+    color: rgb(223, 13, 111);
+    background-color: rgb(45, 53, 52);
+}
+
+body {
+    background-image: url(/img/Background.jpg);
+    background-position: center;
+}
+
+.main-body {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+
+.firsthalf {
+    width: 67%;
+}
+
+.bigtext {
+    color: rgb(41, 35, 5);
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 1px;
+}
+
+.smalltext {
+    color: rgb(61, 55, 25);
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.container1 {
+    background-image: url(/img/sportsfreak.jpg);
+    height: 260px;
+    width: 248px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 60px;
+    max-width: 240px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 190px;
+}
+
+.container1 .topic {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.container1:hover {
+    height: 265px;
+    width: 253px;
+}
